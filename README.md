@@ -1,4 +1,4 @@
-# password_generator
+# Password generator
 
 ## Description: 
 THis password generator is written in python. It's the starting point to put my python knowledge to the test.
@@ -9,7 +9,8 @@ No specific installation requirements with the initial version apart from pyperc
 So the following packages are required for this script to work.
 - pyperclip
 
-You can add pyperclip by :
+You can add pyperclip with :
+
 ``` pip install pyperclip ```
 
 ## Technologies: 
