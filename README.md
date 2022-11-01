@@ -6,7 +6,7 @@ It's the starting point to put my python knowledge to the test.
 Many more features will be added in future versions.
 
 ## How to use: 
-# 0. Install dependencies
+# 1. Install dependencies
 
 Dependencies for this program to run are detailed the following :
 - pyperclip
