@@ -1,5 +1,5 @@
 from password import Password
-from export_psw import copy_to_clipboard
+from utils.export_psw import copy_to_clipboard
 """ This is a basic "console input" implementation of the password module
 Generate input requests to the console and calls the Password.generate_psw method 
 

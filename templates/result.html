@@ -1,0 +1,10 @@
+{% extends "header.html" %}
+{% block content %}
+<script src="/static/js/clipboard.js"></script>
+<div class="grid-container2">
+<div class="grid-item">Generated password : <span class="psw" id="psw">{{ generated_psw }}</span>
+    <button onclick="copyText()"><i class="material-icons">&#xe14d;</i></button></div>
+<div class="grid-item"><img class="qr" src="/static/img/qr_psw.png"></div>
+
+
+{% endblock %}

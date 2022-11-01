@@ -1,0 +1,29 @@
+{% extends "header.html" %}
+{% block content %}
+<form method="POST">
+        {{ psw_form.hidden_tag() }}
+        <div class="grid-container">
+            <div class="grid-item">{{ psw_form.length.label }}</div>
+            <div class="grid-item">{{ psw_form.length() }}</div>
+              <div class="grid-item">{{ psw_form.allow_numbers.label }}</div>
+            <div class="grid-item">{{ psw_form.allow_numbers() }}</div>
+              <div class="grid-item">{{ psw_form.allow_uppercase.label }}</div>
+            <div class="grid-item">{{ psw_form.allow_uppercase() }}</div>
+              <div class="grid-item">{{ psw_form.allow_lowercase.label }}</div>
+            <div class="grid-item">{{ psw_form.allow_lowercase() }}</div>
+              <div class="grid-item">{{ psw_form.allow_symbols.label }}</div>
+            <div class="grid-item">{{ psw_form.allow_symbols() }}</div>
+              <div class="grid-item">{{ psw_form.allow_similar.label }}</div>
+            <div class="grid-item">{{ psw_form.allow_similar() }}</div>
+              <div class="grid-item">{{ psw_form.allow_duplicates.label }}</div>
+            <div class="grid-item">{{ psw_form.allow_duplicates() }}</div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item-submit">{{ psw_form.submit() }}</div>
+        </div>
+</form>
+
+
+{% endblock %}
+
+
