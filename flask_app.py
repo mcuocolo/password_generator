@@ -32,4 +32,4 @@ def result(generated_psw):
     return render_template("result.html", generated_psw=generated_psw)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)

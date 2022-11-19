@@ -7,8 +7,6 @@
         /* Copy selected text into clipboard */
         navigator.clipboard.writeText(span.innerText);
 
-        /* Set the copied text as text for
-        div with id clipboard */
-        document.getElementById("feedback")
-              .innerHTML = "Password copied to clipboard!";
+        /* Generate alert when psw copied to clipboard */
+        alert("Password copied to clipboard");
     }

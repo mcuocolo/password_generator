@@ -62,7 +62,12 @@ button {
     grid-column-start: 2;
     grid-column-end: 4;
     align-content: center;
+}
 
+.btn {
+    width: 60px;
+    margin: 30px;
+    margin-left: 195px;
 }
 
 img.qr {

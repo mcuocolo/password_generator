@@ -36,7 +36,7 @@ To run the text only interface run : **main.py**
 The second option is to run app.py to bring a Flask generated webpage used as graphical interface.
 The functionality is the same with the added generation of a qr code for quick copy to your smartphone.
 Use the checkboxes to select password options.
-To run the webapp run : **app.py**
+To run the webapp run : **flask_app.py**
 
 ## Collaborators: 
 I'm doing that on my own. Any comments or suggestions welcome
